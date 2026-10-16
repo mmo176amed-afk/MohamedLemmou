@@ -98,6 +98,19 @@
       '<div class="chips" id="chips">' + ['all'].concat(cats).map(function (c) {
         return '<button class="chip' + (c === filter ? ' on' : '') + '" data-filter="' + c + '">' + esc(c === 'all' ? t(U.all) : t(U.cats[c] || U.cats.other)) + '</button>';
       }).join('') + '</div>');
+        /* showcase — Houtane Sweets */
+    if (S.showcase) {
+      var SC = S.showcase;
+      h += sec('showcase', t(SC.title),
+        '<div class="showcase-grid">' + SC.images.map(function (im) {
+          return '<a class="shot" href="' + esc(im.src) + '" target="_blank" rel="noopener">' +
+            '<img loading="lazy" src="' + esc(im.src) + '" alt="' + esc(t(im.alt)) + '">' +
+            '</a>';
+        }).join('') + '</div>' +
+        '<div class="btns"><a class="btn pri" target="_blank" rel="noopener" href="' +
+          esc(wa(t(SC.cta))) + '">' + esc(t(SC.cta)) + '</a></div>',
+        '<p class="lead">' + esc(t(SC.intro)) + '</p>');
+    }
 
     /* courses */
     h += sec('courses', t(U.coursesH), '<div class="grid">' + (S.courses.length ? S.courses.map(function (c) {
