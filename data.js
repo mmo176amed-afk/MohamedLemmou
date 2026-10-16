@@ -63,9 +63,7 @@ window.SITE = {
       text:  { ar: "التدريب على الروبوتيك بما فيها ليغو والأردوينو وmBot2.", fr: "Entraînement à la robotique, avec LEGO, Arduino et mBot2.", en: "Training in robotics, including LEGO, Arduino and mBot2." } }
   ],
 
-  /* ---------- منصة ZED Soroban (قسم خاص) ----------
-     لكل نسخة: file = مسار ملف داخل الموقع (تحميل مباشر فوري)، url = رابط احتياطي/خارجي.
-     إذا وُضع file يُستعمل بدل url. */
+  /* ---------- منصة ZED Soroban (قسم خاص) ---------- */
   zed: {
     name:   { ar: "زاد سوروبان — ZED Soroban", fr: "ZED Soroban", en: "ZED Soroban" },
     slogan: { ar: "زاد سوروبان شريكك الدائم", fr: "ZED Soroban, votre partenaire de toujours", en: "ZED Soroban, your lasting partner" },
@@ -131,24 +129,23 @@ window.SITE = {
   },
 
   /* ---------- أعمالي ----------
-     cat: platform | survey | program | book | robotics | other
-     img: مسار صورة اختياري. url: "#books" يعني رابطاً داخل الموقع. */
+     cat: platform | survey | program | book | robotics | other */
   works: [
     { cat: "platform", icon: "🧮", img: "",
       title: { ar: "ZED Soroban — زاد سوروبان", fr: "ZED Soroban", en: "ZED Soroban" },
       text: { ar: "منصة تعليمية تفاعلية للحساب الذهني بالسوروبان: تطبيقات ويندوز وأندرويد وألعاب ونماذج.", fr: "Plateforme éducative interactive de calcul mental au soroban : applications Windows et Android, jeux et formulaires.", en: "Interactive soroban mental-arithmetic platform: Windows and Android apps, games and forms." },
       url: "https://zed-app.github.io/zedsoroban/" },
-      { cat: "survey", icon: "🌊", img: "",
+    { cat: "survey", icon: "🌊", img: "",
       title: { ar: "استبيان التسجيل — موجة البحر", fr: "Questionnaire d'inscription — Mawjat Al-Bahr", en: "Registration Survey — Mawjat Al-Bahr" },
       text: { ar: "رابط الاستبيان للتسجيل في مسابقات موجة البحر.", fr: "Lien du questionnaire d'inscription aux concours Mawjat Al-Bahr.", en: "Registration survey link for Mawjat Al-Bahr competitions." },
-      url: "https://mmo176amed-afk.github.io/Mawjat-Al-Bahr/" }, 
-    { cat: "platform", icon: "🏆", img: "",
-      title: { ar: "Mellou Brain Cup", fr: "Mellou Brain Cup", en: "Mellou Brain Cup" },
-      text: { ar: "منصة ويب خاصة بمسابقة Mellou Brain Cup.", fr: "Plateforme web dédiée au concours Mellou Brain Cup.", en: "Web platform for the Mellou Brain Cup competition." },
+      url: "https://mmo176amed-afk.github.io/Mawjat-Al-Bahr/" },
+    { cat: "survey", icon: "🏆", img: "",
+      title: { ar: "استبيان التسجيل — Mellou Brain Cup", fr: "Questionnaire d'inscription — Mellou Brain Cup", en: "Registration Survey — Mellou Brain Cup" },
+      text: { ar: "رابط الاستبيان للتسجيل في مسابقة Mellou Brain Cup.", fr: "Lien du questionnaire d'inscription au concours Mellou Brain Cup.", en: "Registration survey link for the Mellou Brain Cup competition." },
       url: "https://mmo176amed-afk.github.io/mellou-brain-cup/" },
-    { cat: "platform", icon: "🏜️", img: "",
-      title: { ar: "باب الصحراء — BabSahra", fr: "BabSahra", en: "BabSahra" },
-      text: { ar: "منصة ويب من إنجازي.", fr: "Plateforme web de ma conception.", en: "A web platform I built." },
+    { cat: "survey", icon: "🏜️", img: "",
+      title: { ar: "استبيان التسجيل — باب الصحراء", fr: "Questionnaire d'inscription — BabSahra", en: "Registration Survey — BabSahra" },
+      text: { ar: "رابط الاستبيان للتسجيل في مسابقة باب الصحراء.", fr: "Lien du questionnaire d'inscription au concours BabSahra.", en: "Registration survey link for the BabSahra competition." },
       url: "https://mmo176amed-afk.github.io/BabSahra/" },
     { cat: "program", icon: "🍬", img: "",
       title: { ar: "Houtane Sweets — إدارة مصنع حلويات", fr: "Houtane Sweets : gestion de pâtisserie", en: "Houtane Sweets: bakery management" },
@@ -180,8 +177,7 @@ window.SITE = {
       url: "" }
   ],
 
-  /* ---------- الدورات والإعلانات ----------
-     status: open (التسجيل مفتوح) | soon (قريباً) | closed (انتهت) */
+  /* ---------- الدورات والإعلانات ---------- */
   courses: [
     { icon: "🧮", status: "open",
       title: { ar: "دورة الحساب الذهني — المستوى الأول", fr: "Formation calcul mental, niveau 1", en: "Mental arithmetic course, level 1" },
@@ -200,8 +196,7 @@ window.SITE = {
       price: "" }
   ],
 
-  /* ---------- المتجر ----------
-     price: اكتب السعر كنص مثل "1500 DA" أو اتركه "" ليظهر «اتصل لمعرفة السعر» */
+  /* ---------- المتجر ---------- */
   shop: [
     { icon: "📘", img: "images/rubik-book-1.jpg",
       title: { ar: "ثمانية مراحل لحل مكعب الروبيك — الجزء الأول", fr: "Huit étapes pour résoudre le Rubik's Cube : tome 1", en: "Eight stages to solve the Rubik's Cube: part 1" },
