@@ -130,7 +130,34 @@ window.SITE = {
 
   /* ---------- أعمالي ----------
      cat: platform | survey | program | book | robotics | other */
-  works: [
+    /* ---------- عرض تقديمي: برنامج Houtane Sweets ---------- */
+  showcase: {
+    title: {
+      ar: "برنامج Houtane Sweets — عرض تقديمي",
+      fr: "Logiciel Houtane Sweets — Présentation",
+      en: "Houtane Sweets software — Showcase"
+    },
+    intro: {
+      ar: "لمحة عن برنامج إدارة مصنع الحلويات الذي أنجزته. إذا كنت تريد برنامجاً مشابهاً لمشروعك، تواصل معي وسأصنع لك واحداً يناسب احتياجاتك.",
+      fr: "Aperçu du logiciel de gestion de pâtisserie que j'ai conçu. Si vous souhaitez un logiciel similaire pour votre projet, contactez-moi et j'en créerai un adapté à vos besoins.",
+      en: "A look at the bakery management software I built. If you want a similar program for your project, contact me and I'll build one that fits your needs."
+    },
+    images: [
+      { src: "images/houtane/screen-1.png", alt: { ar: "واجهة تسجيل الدخول", fr: "Écran de connexion", en: "Login screen" } },
+      { src: "images/houtane/screen-2.png", alt: { ar: "لوحة التحكم الرئيسية", fr: "Tableau de bord principal", en: "Main dashboard" } },
+      { src: "images/houtane/screen-3.png", alt: { ar: "إدارة المنتجات والمخزون", fr: "Gestion des produits et du stock", en: "Products and stock management" } },
+      { src: "images/houtane/screen-4.png", alt: { ar: "وصل جديد وعمليات على المنتجات", fr: "Nouveau bon et opérations sur les produits", en: "New receipt and product operations" } },
+      { src: "images/houtane/screen-5.png", alt: { ar: "الفواتير والمدفوعات", fr: "Factures et paiements", en: "Invoices and payments" } },
+      { src: "images/houtane/screen-6.png", alt: { ar: "إدارة الزبائن والموردين", fr: "Gestion des clients et fournisseurs", en: "Customers and suppliers management" } }
+    ],
+    cta: {
+      ar: "اطلب برنامجاً مشابهاً",
+      fr: "Demander un logiciel similaire",
+      en: "Request a similar program"
+    }
+  },
+
+   works: [
     { cat: "platform", icon: "🧮", img: "",
       title: { ar: "ZED Soroban — زاد سوروبان", fr: "ZED Soroban", en: "ZED Soroban" },
       text: { ar: "منصة تعليمية تفاعلية للحساب الذهني بالسوروبان: تطبيقات ويندوز وأندرويد وألعاب ونماذج.", fr: "Plateforme éducative interactive de calcul mental au soroban : applications Windows et Android, jeux et formulaires.", en: "Interactive soroban mental-arithmetic platform: Windows and Android apps, games and forms." },
@@ -150,7 +177,7 @@ window.SITE = {
     { cat: "program", icon: "🍬", img: "",
       title: { ar: "Houtane Sweets — إدارة مصنع حلويات", fr: "Houtane Sweets : gestion de pâtisserie", en: "Houtane Sweets: bakery management" },
       text: { ar: "برنامج لإدارة المنتجات والزبائن والفواتير والتوزيع والمخزون.", fr: "Logiciel de gestion des produits, clients, factures, distribution et stock.", en: "Software for products, clients, invoices, distribution and stock." },
-      url: "https://mmo176amed-afk.github.io/houtane-sweets/" },
+      url: "#showcase" },
     { cat: "platform", icon: "🏫", img: "",
       title: { ar: "School Manager DZ", fr: "School Manager DZ", en: "School Manager DZ" },
       text: { ar: "نظام ويب لإدارة المؤسسة المدرسية.", fr: "Système web de gestion d'établissement scolaire.", en: "Web system for school management." },
