@@ -53,7 +53,7 @@ window.SITE = {
     { icon: "⚡",
       title: { ar: "الرياضيات السريعة", fr: "Mathématiques rapides", en: "Fast math" },
       text:  { ar: "التدريب على تقنيات حلّ العمليات والمسائل الحسابية بسرعة ودقة.", fr: "Entraînement aux techniques pour résoudre calculs et problèmes rapidement et avec précision.", en: "Training in techniques to solve calculations and problems quickly and accurately." } },
-    { icon: "🧊",
+    { icon: "images/rubik.jpg",
       title: { ar: "مكعب روبيك", fr: "Rubik's Cube", en: "Rubik's Cube" },
       text:  { ar: "التدريب على حلّ مكعب روبيك للمبتدئين والمحترفين، ومغمض العينين، وعدّة مكعبات أخرى.", fr: "Entraînement à résoudre le Rubik's Cube pour débutants et experts, les yeux bandés, et de nombreux autres cubes.", en: "Training to solve the Rubik's Cube for beginners and experts, blindfolded, and many other puzzle cubes." } },
     { icon: "🤖",
