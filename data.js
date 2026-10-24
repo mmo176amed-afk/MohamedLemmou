@@ -56,7 +56,7 @@ window.SITE = {
     { icon: "images/rubik.jpg",
       title: { ar: "مكعب روبيك", fr: "Rubik's Cube", en: "Rubik's Cube" },
       text:  { ar: "التدريب على حلّ مكعب روبيك للمبتدئين والمحترفين، ومغمض العينين، وعدّة مكعبات أخرى.", fr: "Entraînement à résoudre le Rubik's Cube pour débutants et experts, les yeux bandés, et de nombreux autres cubes.", en: "Training to solve the Rubik's Cube for beginners and experts, blindfolded, and many other puzzle cubes." } },
-    { icon: "🤖",
+    { icon: "images/arduino.jpg",
       title: { ar: "الروبوتيك", fr: "Robotique", en: "Robotics" },
       text:  { ar: "التدريب على الروبوتيك بما فيها ليغو والأردوينو وmBot2.", fr: "Entraînement à la robotique, avec LEGO, Arduino et mBot2.", en: "Training in robotics, including LEGO, Arduino and mBot2." } }
   ],
