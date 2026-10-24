@@ -1,16 +1,31 @@
 /* ============================================================
    ملف المحتوى — هذا هو الملف الوحيد الذي تحتاج لتعديله
    كل نص مكتوب بثلاث لغات: ar (عربي) / fr (فرنسي) / en (إنجليزي)
-   لإضافة عنصر جديد: انسخ عنصراً موجوداً والصقه تحته ثم عدّل نصوصه.
-   اترك الرابط url: "" فارغاً إذا لم يكن جاهزاً (سيختفي الزر تلقائياً).
    ============================================================ */
 window.SITE = {
 
-     about: {
+  /* ---------- معلومات عامة ---------- */
+  person: {
+    name:  { ar: "محمد لمو", fr: "Mohamed Lemmou", en: "Mohamed Lemmou" },
+    title: {
+      ar: "مدرّب أطفال: الذاكرة • الذكاء • الحساب الذهني • مكعب روبيك • روبوتيك STEM",
+      fr: "Formateur pour enfants : mémoire, intelligence, calcul mental, Rubik's Cube, robotique STEM",
+      en: "Children's trainer: memory, intelligence, mental arithmetic, Rubik's Cube, STEM robotics"
+    },
+    tagline: {
+      ar: "أصنع من التعلّم متعة، ومن الأطفال مبدعين.",
+      fr: "Je transforme l'apprentissage en plaisir et les enfants en créateurs.",
+      en: "I turn learning into fun and children into creators."
+    },
+    about: {
       ar: "أنا محمد لمو، مدرّب متخصص في تنمية قدرات الأطفال العقلية والتقنية. أُدرّب على تقوية الذاكرة، وتنمية الذكاء، والحساب الذهني (السوروبان)، وحلّ مكعب روبيك، وعدة أنواع من المكعبات إبتداءً من 2×2×2 إلى 7×7×7. وأُدخل الأطفال إلى عالم الروبوتات والبرمجة عبر مشاريع STEM عملية بالأردوينو وESP32. إلى جانب التدريس، أبني منصات ويب وبرامج تعليمية وإدارية، وأنا مؤلف سلسلة كتب «كتاب في كل بيت» لتعلّم مكعب روبيك بدون معلم.",
       fr: "Je suis Mohamed Lemmou, formateur spécialisé dans le développement des capacités mentales et techniques des enfants : mémoire, intelligence, calcul mental (soroban), Rubik's Cube et plusieurs types de cubes, du 2×2×2 au 7×7×7. J'initie les enfants au monde de la robotique et de la programmation à travers des projets STEM concrets (Arduino, ESP32). En parallèle de l'enseignement, je conçois des plateformes web et des logiciels éducatifs et de gestion, et je suis l'auteur de la collection « Un livre dans chaque foyer » pour apprendre le Rubik's Cube sans professeur.",
       en: "I'm Mohamed Lemmou, a trainer focused on developing children's mental and technical abilities: memory, intelligence, mental arithmetic (soroban), Rubik's Cube, and several types of cubes from 2×2×2 to 7×7×7. I introduce children to the world of robotics and programming through hands-on STEM projects with Arduino and ESP32. Alongside teaching, I build web platforms and educational and management software, and I'm the author of the “A Book in Every Home” series for learning the Rubik's Cube without a teacher."
     },
+    location: { ar: "الجزائر", fr: "Algérie", en: "Algeria" },
+    photo: "images/me.jpg"
+  },
+
   /* ---------- التواصل ---------- */
   contact: {
     whatsapp: "213666925680",
