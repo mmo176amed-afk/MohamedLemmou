@@ -47,7 +47,7 @@ window.SITE = {
     { icon: "🔢",
       title: { ar: "تحفيظ جدول الضرب بطرق إبداعية", fr: "Table de multiplication, façon créative", en: "Multiplication table, the creative way" },
       text:  { ar: "التدريب على حفظ جدول الضرب بأساليب مبتكرة وممتعة.", fr: "Entraînement à mémoriser la table de multiplication avec des méthodes originales et amusantes.", en: "Training to memorize the multiplication table with original, fun methods." } },
-    { icon: "🧮",
+    { icon: "images/soroban.jpg",
       title: { ar: "الحساب الذهني (السوروبان)", fr: "Calcul mental (Soroban)", en: "Mental arithmetic (Soroban)" },
       text:  { ar: "التدريب على الحساب السريع بالعقل بمساعدة المعداد الياباني.", fr: "Entraînement au calcul rapide de tête grâce au boulier japonais.", en: "Training in lightning-fast mental math with the Japanese abacus." } },
     { icon: "⚡",
