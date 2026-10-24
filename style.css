@@ -157,3 +157,28 @@ footer{background:rgba(8,14,38,.85);color:#b9c5ea;text-align:center;padding:28px
   .showcase-grid { grid-template-columns: 1fr; gap: 1rem; }
   .showcase-grid .shot { aspect-ratio: 4 / 3; }
 }
+/* --- خلفية قسم مجالات التدريب --- */
+#services {
+  position: relative;
+  background-image: url('images/soroban.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* لإضافة طبقة شفافة داكنة فوق الصورة حتى لا تمنع قراءة النص */
+#services::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(15, 27, 61, 0.85); /* لون كحلي داكن شفاف */
+  z-index: 1;
+}
+
+/* لضمان ظهور النصوص والبطاقات فوق الطبقة الشفافة */
+#services .wrap {
+  position: relative;
+  z-index: 2;
+}
