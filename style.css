@@ -159,8 +159,8 @@ footer{background:rgba(8,14,38,.85);color:#b9c5ea;text-align:center;padding:28px
 }
 /* --- تنسيق صورة الأيقونة داخل البطاقات --- */
 .card .ic {
-  height: 60px; 
-  width: 60px;
+  height: 30px; 
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
