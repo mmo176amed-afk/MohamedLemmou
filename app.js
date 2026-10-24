@@ -59,7 +59,7 @@
 
     /* services */
     h += sec('services', t(U.servicesH), '<div class="grid cols3">' + S.services.map(function (s) {
-      return '<div class="card"><div class="ic">' + esc(s.icon) + '</div><h3>' + esc(t(s.title)) + '</h3><p>' + esc(t(s.text)) + '</p></div>';
+      return '<div class="card"><div class="ic">' + (s.icon.includes('.') ? '<img src="' + esc(s.icon) + '" style="width:100%; height:100%; object-fit:contain;" alt="icon">' : esc(s.icon)) + '</div><h3>' + esc(t(s.title)) + '</h3><p>' + esc(t(s.text)) + '</p></div>';
     }).join('') + '</div>');
 
     /* ZED Soroban */
