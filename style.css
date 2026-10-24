@@ -157,3 +157,19 @@ footer{background:rgba(8,14,38,.85);color:#b9c5ea;text-align:center;padding:28px
   .showcase-grid { grid-template-columns: 1fr; gap: 1rem; }
   .showcase-grid .shot { aspect-ratio: 4 / 3; }
 }
+/* --- تنسيق صورة الأيقونة داخل البطاقات --- */
+.card .ic {
+  height: 60px; 
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.card .ic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* يضمن ظهور الصورة كاملة دون تشويه */
+  border-radius: 12px; /* حواف دائرية للصورة */
+}
