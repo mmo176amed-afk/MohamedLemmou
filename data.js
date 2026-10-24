@@ -156,10 +156,6 @@ window.SITE = {
   },
 
    works: [
-    { cat: "platform", icon: "🧮", img: "",
-      title: { ar: "ZED Soroban — زاد سوروبان", fr: "ZED Soroban", en: "ZED Soroban" },
-      text: { ar: "منصة تعليمية تفاعلية للحساب الذهني بالسوروبان: تطبيقات ويندوز وأندرويد وألعاب ونماذج.", fr: "Plateforme éducative interactive de calcul mental au soroban : applications Windows et Android, jeux et formulaires.", en: "Interactive soroban mental-arithmetic platform: Windows and Android apps, games and forms." },
-      url: "https://zed-app.github.io/zedsoroban/" },
     { cat: "survey", icon: "🌊", img: "",
       title: { ar: "استبيان التسجيل — موجة البحر", fr: "Questionnaire d'inscription — Mawjat Al-Bahr", en: "Registration Survey — Mawjat Al-Bahr" },
       text: { ar: "رابط الاستبيان للتسجيل في مسابقات موجة البحر.", fr: "Lien du questionnaire d'inscription aux concours Mawjat Al-Bahr.", en: "Registration survey link for Mawjat Al-Bahr competitions." },
